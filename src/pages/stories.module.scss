@@ -1,0 +1,37 @@
+@import "../styles/variables";
+
+.storiesPage {
+  padding: $content-padding;
+  min-height: calc(100vh - #{$min-content-height + $content-padding * 2});
+}
+
+.title {
+  margin-top: 0;
+}
+
+.row {
+  margin: 30px 0;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  padding: 35px 90px;
+  h3, p, h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.col30 {
+  width: 30%;
+}
+
+.col70 {
+  width: 70%;
+}
+
+.icon {
+  margin-left: 5px;
+  vertical-align: middle;
+}

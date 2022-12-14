@@ -1,0 +1,59 @@
+@import "../../styles/variables";
+
+.programInfoPage {
+  display: flex;
+  h1, h2 {
+    margin-top: 10px;
+  }
+}
+
+.unorderedList {
+  padding-left: 32px;
+  margin-bottom: 25px;
+  li {
+    font-size: 18px;
+    line-height: 30px;
+    &::before {
+      margin-left: -22px;
+    }
+  }
+}
+
+.preTitle {
+  margin-bottom: 0;
+}
+
+.col30 {
+  width: 30%;
+}
+.col70 {
+  padding: $content-padding calc(#{$content-padding} * 2) $bottom-padding;
+  width: 70%;
+}
+
+.listTitle {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.listDescription {
+  margin: 0;
+  padding-left: 35px;
+}
+
+.caseDescriptions {
+  h3 {
+    margin-top: 40px;
+    margin-bottom: 14px;
+  }
+  h4 {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}

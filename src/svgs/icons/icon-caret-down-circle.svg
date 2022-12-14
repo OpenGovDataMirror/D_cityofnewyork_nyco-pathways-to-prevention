@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>icon-caret-down-circle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header" transform="translate(-830.000000, -60.000000)" fill="#242135">
+            <g id="translate">
+                <g transform="translate(830.000000, 58.000000)">
+                    <path d="M5,2 C7.76142375,2 10,4.23857625 10,7 C10,9.76142375 7.76142375,12 5,12 C2.23857625,12 0,9.76142375 0,7 C0,4.23857625 2.23857625,2 5,2 Z M7.59627483,6 L2.40371488,6 C2.04449754,6 1.86487901,6.4370853 2.11917107,6.69322967 L2.11917107,6.69322967 L4.71443609,9.30964655 C4.87184372,9.46821306 5.128146,9.46821306 5.28555363,9.30964655 L5.28555363,9.30964655 L7.88083835,6.69322967 C8.1351107,6.4370853 7.95551188,6 7.59627483,6 L7.59627483,6 Z" id="icon-caret-down-circle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

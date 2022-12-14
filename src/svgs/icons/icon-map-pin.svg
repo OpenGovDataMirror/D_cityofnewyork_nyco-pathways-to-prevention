@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="56px" viewBox="0 0 48 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>icon-map-pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,25.9212041 37.4268455,31.2414159 33.3377425,34.9034292 L33.9350288,35.5 L20.5,48.9350288 L7.06497116,35.5 L7.19801227,35.3664931 C2.79917618,31.6977889 0,26.1757858 0,20 C0,8.954305 8.954305,0 20,0 Z" id="path-1"></path>
+        <filter x="-17.5%" y="-10.2%" width="135.0%" height="128.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="02-PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="21-ACS-PROD-Pages-Providers-B" transform="translate(-696.000000, -653.000000)">
+            <g id="Body">
+                <g id="icon-map-pin" transform="translate(700.000000, 655.000000)">
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#237B49" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M19.115987,10.8758104 C19.5308229,10.0355987 20.7226307,10.0461387 21.1339647,10.8758104 L23.4296555,15.5305006 L28.5659576,16.2793201 C29.487056,16.4129066 29.8561958,17.5484439 29.1882286,18.198833 L25.472215,21.8199181 L26.3511192,26.9351403 C26.5093219,27.8597749 25.5355236,28.548822 24.7198936,28.11991 L20.1249759,25.7046745 L15.5300581,28.11991 C14.7144282,28.5523239 13.7406298,27.8597749 13.8988326,26.9351403 L14.7777367,21.8199181 L11.0617231,18.198833 C10.3937559,17.5484439 10.7628957,16.4129066 11.6839941,16.2793201 L16.8202962,15.5305006 L19.115987,10.8758104 Z" id="star" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

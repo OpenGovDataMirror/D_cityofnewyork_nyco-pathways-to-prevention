@@ -1,0 +1,8 @@
+@import "../styles/variables";
+
+.textarea {
+  border: 1px solid $gray;
+  min-height: 90px;
+  padding: 10px 20px 15px;
+  width: calc(100% - 20px * 2);
+}

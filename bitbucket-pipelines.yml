@@ -1,0 +1,19 @@
+image: node:10.15.3
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: Deploy Gatsby
+          image: node:12-alpine
+          script:
+            - apk update && apk add build-base autoconf automake libtool pkgconfig nasm
+            - apk add --update python python-dev py-pip build-base
+            #- cd web
+            - unset NPM_CONFIG_USER
+            - npm install
+            - npm install --global gatsby-cli && gatsby telemetry --disable && mkdir /save
+            - npm run build
+            - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY npm run deploy
+
+
+

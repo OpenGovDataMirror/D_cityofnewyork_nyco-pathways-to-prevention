@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="11px" viewBox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="transform: scaleX(-1);">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>icon-caret-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="02-PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="16-ACS-PROD-Pages-ProgramInformation-A" transform="translate(-30.000000, -231.000000)" fill="#000000">
+            <g id="Body">
+                <g id="sub-nav">
+                    <path d="M30,240.755875 L30,232.564511 C30,231.997302 30.6732162,231.713262 31.0669225,232.114344 L35.0876038,236.210025 C35.3316828,236.458626 35.3316828,236.86176 35.0876038,237.110361 L31.0669225,241.206042 C30.6732162,241.607155 30,241.323084 30,240.755875 Z" id="icon-caret-right"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

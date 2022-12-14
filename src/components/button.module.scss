@@ -1,0 +1,32 @@
+@import "../styles/variables";
+
+button {
+  background-color: $black;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $black;
+  font-size: 14px;
+  padding: 10px 25px;
+
+  &:hover {
+    background-color: $green;
+    border-color: $green;
+    cursor: pointer;
+  }
+}
+
+.medium {
+  padding: 15px 50px;
+}
+
+.disabled {
+  background-color: $gray;
+  border-color: $gray;
+  &:hover {
+    background-color: $gray;
+    border-color: $gray;
+  }
+}

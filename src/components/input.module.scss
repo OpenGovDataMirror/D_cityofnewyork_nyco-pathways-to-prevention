@@ -1,0 +1,19 @@
+@import "../styles/variables";
+
+.inputContainer {
+  border: 1px solid $gray;
+  display: flex;
+  background-color: $white;
+  padding: 10px;
+
+  input {
+    border: none;
+    font-size: 14px;
+    width: 190px;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+}

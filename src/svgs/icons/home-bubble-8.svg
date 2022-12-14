@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="218px" height="50px" viewBox="0 0 218 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>home-bubble-8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="02-PAGES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-ACS-PROD-Pages-Home" transform="translate(-700.000000, -573.000000)">
+            <g id="Body" transform="translate(0.000000, 1.000000)">
+                <g id="intro" transform="translate(100.000000, 150.000000)">
+                    <g id="Bubbles" transform="translate(360.000000, 0.000000)">
+                        <g id="home-bubble-8" transform="translate(240.000000, 422.000000)">
+                            <path d="M25,0 L193,0 C206.807119,-2.53632657e-15 218,11.1928813 218,25 C218,38.8071187 206.807119,50 193,50 L25,50 C11.1928813,50 1.69088438e-15,38.8071187 0,25 C-1.69088438e-15,11.1928813 11.1928813,2.53632657e-15 25,0 Z" id="Rectangle-12" fill="#1B1B23" opacity="0.08"></path>
+                            <text id="Why-is-our-kid-skipp" style="mix-blend-mode: multiply;" font-family="RedHatText-Italic, Red Hat Text" font-size="14" font-style="italic" font-weight="normal" fill="#AFB9C5">
+                                <tspan x="15.095" y="28">Why is our kid skipping school?</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

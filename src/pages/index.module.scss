@@ -1,0 +1,145 @@
+@import "../styles/variables";
+
+.homePage {
+  padding: 0 calc(#{$content-padding} * 2);
+  margin-bottom: 120px;
+
+  &:first-child {
+    margin-bottom: 80px;
+  }
+
+  section {
+    padding-top: 15px;
+  }
+
+  ul {
+    padding-left: 8px;
+    li {
+      font-size: 18px !important;
+      line-height: 30px !important;
+    }
+  }
+
+  h1 {
+    line-height: 60px;
+  }
+
+  .backgroundImage {
+    position: absolute;
+    top: 125px;
+    right: 40px;
+    opacity: 0.7;
+    svg {
+      display: block;
+      margin-bottom: 5px;
+      &:nth-child(odd) {
+        margin-left: 30px;
+      }
+      &:nth-child(3n + 1) {
+        margin-left: 70px;
+      }
+      &:nth-child(4n + 1) {
+        margin-left: 100px;
+      }
+      &:last-child {
+        margin-left: 110px;
+      }
+    }
+  }
+  .frontImage {
+    position: relative;
+    text-align: center;
+    svg {
+      vertical-align: middle;
+    }
+  }
+}
+
+.mainTitle {
+  font-size: 58px;
+  line-height: 58px;
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.col {
+  width: 50%;
+  display: inline-block;
+  &:first-child {
+    vertical-align: middle;
+  }
+}
+
+.casePlannersCard {
+  padding: 15px 30px;
+}
+
+.description {
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 25px;
+  span {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+}
+
+.mapBackground {
+  background: url("../images/home-map-background.png") no-repeat;
+  background-size: cover;
+  height: 350px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 80px;
+  margin-top: 45px;
+}
+
+.list {
+  padding-left: 30px;
+  width: calc(50% - 30px);
+  margin: auto;
+  div {
+    padding-left: 30px;
+  }
+  &,
+  h5 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  h5 {
+    margin: 0;
+  }
+  hr {
+    margin: 23.5px 0 21.5px 0;
+  }
+}
+
+.providersDescription {
+  padding: 65px 95px;
+  h4,
+  p {
+    margin: 0;
+    line-height: 24px;
+  }
+  p {
+    margin-bottom: 19px;
+  }
+}
+
+.smallText {
+  font-weight: 600;
+  font-size: 14px;
+}
